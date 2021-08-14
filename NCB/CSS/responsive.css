@@ -1,0 +1,488 @@
+@media only screen and (max-width: 1135px) {
+    header {
+        padding: 35px 50px 35px 40px; 
+    }
+    header .nav-content ul{
+        margin-left: 30px;
+    }
+    header .nav-content ul li {
+        width: 165px;
+    }
+    header .nav-right a, header .nav-right a:visited{
+        padding: 10px 0;
+        width: 110px;
+    }
+
+
+    .main-section .img-part svg{
+        width: 465px;
+        height: 285px;
+    }
+    .main-section {
+        padding: 50px 20px 75px 20px;
+    }
+    .main-section .content {
+        padding-top: 40px;
+    }
+    .main-section h1 {
+        font-size: 2em;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+    .main-section .text-part {
+        width: 80%;
+    }
+    .main-section .text-part h4{
+        font-size: 1.3em;
+    }
+    .main-section .text-part p{
+        line-height: 1.5em;
+    }
+
+
+    .mid-section {
+        padding: 00px 40px;
+        border-top-right-radius: 120px;
+        border-bottom-left-radius: 115px;
+        height: 285px;
+        margin: 20px;
+    }
+    .mid-section .img-part div:nth-child(1) {
+        background-position: -153px 0px;
+        width: 163px;
+        height: 335px;
+        border-bottom-left-radius: 18px;
+        border-bottom-right-radius: 18px;
+        transform: translateY(20px);
+    }
+    .mid-section .img-part div:nth-child(2) {
+        height: 393px;
+        width: 180px;
+        transform: translateY(50px);
+    }
+    .mid-section .text-part {
+        width: 70%;
+    }
+    .mid-section .text-part h2 {
+        font-size: 1.3em;
+    }
+    .mid-section .text-part p {
+        font-size: 1em;
+    }
+    
+
+    footer .logo {
+        width: 30%;
+    }
+    footer table td {
+        width: 180px;
+    }
+}
+
+@media only screen and (max-width: 975px) {
+    header .nav-left, header .nav-right {
+        display: none;
+    }
+    .menu {
+        background: url(../img/menu.svg) no-repeat;
+        background-size: cover;
+        width: 28px;
+        height: 27px;
+        cursor: pointer;
+        transition: .3s;
+    }
+    .menu:hover {
+        transform: rotate(180deg);
+        transition: transform .3s;
+    }
+    .menu.menu-clicked {
+        background: url(../img/close.svg) no-repeat;
+        background-size: cover;
+    }
+    .nav-left.menu-clicked {
+        display: flex;
+    }
+    .nav-right.menu-clicked {
+        display: flex;
+        align-items: center;
+        top: 330px;
+        width: 100%;
+        position: absolute;
+        background-color: white;
+        left: 0;
+        animation-name: slide-down;
+        animation-duration: .4s;
+    }
+    header .sign-up, header .sign-up:visited {
+        border-radius: 0px;
+        color: white;
+    }
+    header .nav-right a, header .nav-right a:visited{
+        background-color: steelblue;
+        padding: 15px 0;
+        width: 50%;
+        color: white;
+        text-align: center;
+        border: black 2px solid;
+        font-size: 1em;
+        animation: none;
+    }
+    header .nav-right a:nth-child(2) {
+        border-radius: 0;
+    }
+    .nav-left.menu-clicked ul {
+        align-items: flex-start;
+        flex-direction: column;
+        width: 100%;
+        height: 29vh;
+        background-color: rgb(255,255,255);
+        position: absolute;
+        top: 110px;
+        left: 0;
+        margin: 0;
+        animation-name: slide-down;
+        animation-duration: .4s;
+    }
+    header .nav-content ul li {
+        color: black;
+        width: 185px;
+        padding: 25px 40px;
+        width: 100%;
+        border-bottom: black 3px solid;
+        font-size: 1.1em;
+    }
+    header .nav-content .dd-menu{
+        padding: 10px;
+        top: 64px;
+        left: 115px;
+        z-index: 1000;
+    }
+    .nav-left .dd-menu ul {
+        position: relative;
+        width: 50%;
+        height: 140px;
+        top: 0px;
+    }
+    header .nav-content .dd-menu li {
+        color: rgba(0, 0, 0, 0.8);
+        padding: 12px;
+        font-size: 1em;
+        border-bottom: none;
+        animation: none;
+    }
+
+
+    .banner {
+        background: url(../img/banner.svg) no-repeat;
+        background-size: cover;
+        border-bottom-left-radius: 140px;
+        background-attachment: fixed;
+        height: 50vh;
+    }
+    .banner .text-part h2 {
+        font-size: 2em;
+    }
+    .banner .text-part p {
+        font-size: 1em;
+    }
+    .banner .content a, .banner .content a:visited{
+        border: white 2px solid;
+        width: 125px;
+        font-size: .8em;
+    }
+    .banner .content a:first-child {
+        margin-right: 30px;
+    }
+    
+
+    .main-section {
+        padding: 80px 0px 65px 0px;
+    }
+    .main-section h1 {
+        font-size: 1.6em;
+    }
+    .main-section .text-part {
+        width: 50%;
+    }
+    .main-section .text-part h4{
+        font-size: 1.1em;
+    }
+    .main-section .text-part p{
+        font-size: 1em;
+    }
+    .main-section .img-part svg{
+        width: 300px;
+        height: 180px;
+        margin: 10px;
+    }
+
+
+    .mid-section {
+        padding: 00px 40px;
+        border-top-right-radius: 120px;
+        border-bottom-left-radius: 115px;
+        height: 180px;
+        margin: 20px 0;
+    }
+    .mid-section .img-part div:nth-child(1) {
+        background-position: -96px 0px;
+        width: 102px;
+        height: 210px;
+        border-bottom-left-radius: 11px;
+        border-bottom-right-radius: 11px;    
+        transform: translateY(15px);
+        margin-right: 15px;
+    }
+    .mid-section .img-part div:nth-child(2) {
+        height: 260px;
+        width: 130px;
+        transform: translateY(30px);
+    }
+    .mid-section .text-part {
+        width: 60%;
+    }
+    .mid-section .img-part {
+        font-size: .5em;
+    }
+    .mid-section .text-part h2 {
+        font-size: 1.1em;
+    }
+    .mid-section .text-part p {
+        font-size: .9em;
+    }
+
+
+    footer {
+        padding: 39px 15px 50px 25px;
+        border-radius: 0;
+    }
+    footer .logo {
+        width: 50%;
+    }
+    footer table {
+        width: 50%;
+    }
+    footer table th{
+        font-size: .8em;
+        padding-bottom: 13px;
+    }
+    footer table td {
+        width: 140px;
+        padding: 2px 0;
+        font-size: .8em;
+    }
+
+
+    .sign-up-window h4 {
+        font-size: 1.2em;
+    }
+    .sign-up-window .input-container {
+        border: solid 40px white;
+        width: 500px;
+    }
+    .sign-up-window div {
+        width: 370px;
+    }
+    .sign-up-window input {
+        font-size: .9em;
+        padding: 12px 15px;
+        margin: 10px 0;
+    }
+    .sign-up-window button {
+        font-size: 1em;
+    }
+    header .sign-up.sign-up-clicked, header .sign-up.sign-up-clicked:visited {
+        right: 50px;
+        top: 40px;
+        background: url(../img/cross.svg) no-repeat;
+        border: 0;
+        height: 20px;
+        width: 25px;
+    }
+}
+
+@media only screen and (max-width: 652px) {
+
+    .logo div:nth-child(1){
+        width: 52px;
+        height: 29px;
+    }
+    .title h6 {
+        font-size: .4em;
+    }
+    .title span {
+        font-size: 4px;
+    }
+    header .nav-left, header .nav-right {
+        width: 50%;
+    }
+    .nav-right.menu-clicked {
+        top: 274px;
+    }
+    header .nav-right a, header .nav-right a:visited{
+        background-color: steelblue;
+        padding: 15px 0;
+        border: black 1px solid;
+        font-size: .8em;
+    }
+    .nav-left.menu-clicked ul {
+        height: 22vh;
+        top: 110px;
+    }
+    header .nav-content ul li {
+        padding: 20px 30px;
+        width: 100%;
+        border-bottom: black 1px solid;
+        font-size: .8em;
+    }
+    header .menu {
+        width: 23px;
+        height: 23px;
+    }
+    header svg {
+        width: 24px;
+        height: 12px;
+    }
+    header .nav-content .dd-menu{
+        top: 60px;
+        left: 70px;
+        width: 135px;
+    }
+    .nav-left .dd-menu ul {
+        height: 100px;
+        top: 0px;
+    }
+    header .nav-content .dd-menu li {
+        padding: 9px;
+        font-size: .9em;
+    }
+    header .nav-content .dd-menu::before {
+        top: -13px;
+        left: 53px;
+        height: 25px;
+        width: 25px;
+    }
+    
+
+    .banner {
+        height: 65vh;
+        border-radius: 0;
+    }
+    .banner .text-part h2 {
+        font-size: 1.2em;
+    }
+    .banner .text-part p {
+        font-size: .9em;
+    }
+
+
+    .main-section {
+        padding: 40px 00 15px 00;
+    }
+    .main-section.first {
+        padding: 60px 0 20px 0;
+    }
+    .main-section .content {
+        padding-top: 0px;
+    }
+    .main-section h1 {
+        font-size: 1.3em;
+    }
+    .main-section .text-part {
+        width: 90%;
+    }
+    .main-section .text-part h4{
+        font-size: 1em;
+    }
+    .main-section .text-part p{
+        font-size: .9em;
+        margin-bottom: 40px;
+    }
+    .main-section .img-part svg{
+        width: 270px;
+        height: 170px;
+        margin: 20px 20px 25px 20px;
+    }
+
+
+    .mid-section {
+        padding: 0;
+        height: 150px;
+        border-top-right-radius: 55px;
+        border-bottom-left-radius: 55px;
+        margin: 0;
+    }
+    .mid-section .img-part div:nth-child(1) {
+        background-position: -81px 0px;
+        width: 89px;
+        height: 180px;
+        margin-right: 20px;
+        transform: translateY(0px);
+    }
+    .mid-section .img-part div:nth-child(2) {
+        display: none;
+    }
+    .mid-section .text-part {
+        width: 70%;
+    }
+    .mid-section .img-part {
+        font-size: .5em;
+    }
+    .mid-section .text-part h2 {
+        font-size: .7em;
+    }
+    .mid-section .text-part p {
+        font-size: .7em;
+    }
+
+
+    footer {
+        padding: 40px 10px 40px 15px;
+    }
+    footer table th{
+        font-size: .7em;
+        padding-bottom: 13px;
+    }
+    footer table td {
+        width: 100px;
+        padding: 2px 0;
+        font-size: .6em;
+    }
+
+
+    .top-btn, .top-btn:visited {
+        bottom: 5px;
+        right: 270px;
+        padding: 8px;
+    }
+    .top-btn-display {
+        display: block;
+    }
+    .top-btn, .top-btn:visited svg {
+        width: 28px;
+        height: 30px;
+    }
+
+
+    .sign-up-window h4 {
+        font-size: 1em;
+    }
+    .sign-up-window .input-container {
+        width: 320px;
+        border: 30px solid white;
+    }
+    .sign-up-window div {
+        width: 250px;
+    }
+    .sign-up-window input {
+        font-size: .7em;
+        padding: 10px 12px;
+    }
+    .sign-up-window button {
+        font-size: .8em;
+        padding: 7px 20px;
+    }
+    header .sign-up.sign-up-clicked, header .sign-up.sign-up-clicked:visited {
+        width: 22px;
+    }
+}
